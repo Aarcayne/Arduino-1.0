@@ -10,6 +10,6 @@ void loop() {
 
   for(int i=255; i>=0; i--)
   { analogWrite(3, i);
-    delay(10);
+    delay(50);
   }
-}
+}  
